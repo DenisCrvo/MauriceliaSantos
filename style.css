@@ -24,10 +24,11 @@ body {
 }
 
 .top-bar .social-icons a {
-    color: white;
+    color: white !important; /* Adicionado !important para forçar a cor */
     text-decoration: none;
     transition: color 0.3s ease;
 }
+
 
 .top-bar .social-icons a:hover {
     color: var(--light-grey);
@@ -127,7 +128,7 @@ body {
 }
 
 .hero-section .image-section {
-    background-image: url('https://i.imgur.com/your_lawyer_image.jpg'); /* Substitua pelo URL da sua imagem */
+    background-image: url('https://images.pexels.com/photos/8111853/pexels-photo-8111853.jpeg'); /* Substitua pelo URL da sua imagem */
     background-size: cover;
     background-position: center;
     min-height: 600px; /* Altura mínima para a imagem */

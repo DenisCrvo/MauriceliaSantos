@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mauricélia Santos</title>
+    <title>Mauricélia Santos Advocacia</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header class="top-bar py-2">
+    <header class="top-bar py-2 bg-dark text-white">
         <div class="container d-flex justify-content-end align-items-center">
-            <div class="social-icons">
-                <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
-            </div>
+            <nav aria-label="Redes sociais do cabeçalho">
+                <ul class="list-unstyled d-flex mb-0 social-icons">
+                    <li class="me-3"><a href="#" class="text-white" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="me-3"><a href="#" class="text-white" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li class="me-3"><a href="https://www.instagram.com/msantos2020/" class="text-white" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" class="text-white" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" alt="Bootstrap Logo" height="30" class="me-2">
-                <span class="fw-bold text-dark">blootrap</span>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" alt="Logotipo da Empresa" height="30" class="me-2">
+                <span class="fw-bold text-dark">Mauricélia Santos</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,19 +38,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Para clientes</a>
+                        <a class="nav-link" href="#">Quem sou</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quem somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nossa equipe</a>
+                        <a class="nav-link" href="#">Minha equipe</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Serviços</a>
                     </li>
                 </ul>
-                <a href="#" id="whatsappButton" class="btn btn-primary-custom">Fale Comigo</a>
+                <a href="https://api.whatsapp.com/send/?phone=5581997199683&text&type=phone_number&app_absent=0" id="whatsappButton" class="btn btn-primary-custom">Fale Conosco</a>
             </div>
         </div>
     </nav>
@@ -58,20 +58,30 @@
                 <div class="col-lg-6 text-section">
                     <h1 class="display-4 fw-bold mb-4">Mauricélia Santos</h1>
                     <p class="lead mb-4">
-                        Especialista em direito previdenciário, trabalhista, consumidor, família e sucessões
+                        Advogada, especialista em direito previdenciário, trabalhista, consumidor, família e sucessões
                     </p>
-                    <p class="mb-4">
-                        Preciso de um texto aqui.
-                    </p>
+                    <p style="text-align: justify;">Com mais de 20 anos de experiência e um compromisso inabalável com a justiça, a Dra. Mauricélia Santos está pronta para oferecer a você soluções jurídicas personalizadas e eficazes.</p>
+
+                    <p style="text-align: justify;">Entendemos que cada caso é único. É por isso que, nas áreas Previdenciária, Trabalhista, do Consumidor, Família e Sucessões, nossa equipe se dedica a encontrar a abordagem mais estratégica para garantir seus direitos.</p>
+
+                    <p style="text-align: justify;">Conte com clareza, agilidade e excelência em cada etapa do processo.</p>
                     <div class="d-grid gap-3 mb-4">
                         <button class="btn btn-outline-secondary-custom text-start d-flex justify-content-between align-items-center">
-                            <span>Entendemos suas necessidades</span> <i class="fas fa-chevron-right"></i>
+                            <span>Direito previdenciário</span> <i class="fas fa-chevron-right"></i>
                         </button>
                         <button class="btn btn-outline-secondary-custom text-start d-flex justify-content-between align-items-center">
-                            <span>Temos a solução ideal para você</span> <i class="fas fa-chevron-right"></i>
+                            <span>Direito trabalhista</span> <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <button class="btn btn-outline-secondary-custom text-start d-flex justify-content-between align-items-center">
+                            <span>Direito do consumidor</span> <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <button class="btn btn-outline-secondary-custom text-start d-flex justify-content-between align-items-center">
+                            <span>Direito da família</span> <i class="fas fa-chevron-right"></i>
                         </button>
                     </div>
-                    <button class="btn btn-primary-custom-large">Saiba Mais Sobre Nós</button>
+                    <div class="d-flex flex-column flex-sm-row gap-3">
+                        <button class="btn btn-primary-custom-large">Saiba Mais</button>
+                    </div>
                 </div>
                 <div class="col-lg-6 image-section d-none d-lg-block">
                     </div>
@@ -80,8 +90,6 @@
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlco9j7wMUPyAlsDWFJygwFJqQAzjQZGYrC6rimIHNLRzNhohKEWADK" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/your-font-awesome-kit-code.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

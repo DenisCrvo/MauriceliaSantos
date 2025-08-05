@@ -23,14 +23,14 @@ html {
 
 /* --- Componentes da Barra de Navegação --- */
 
-/* Add this new class for the header background */
+/* Adicione esta nova classe para o fundo do cabeçalho */
 .bg-primary-custom {
-    background-color: var(--primary-color) !important; /* Uses your primary color */
+    background-color: var(--primary-color) !important; /* Usa sua cor primária */
 }
 
-/* Adjust color for brand text to be visible on dark background */
+/* Ajusta a cor do texto da marca para ser visível em fundo escuro */
 .navbar-brand .fw-bold {
-    color: var(--secondary-color); /* Lighter color for brand text */
+    color: var(--secondary-color); /* Cor mais clara para o texto da marca */
     font-size: 1.5rem;
 }
 
@@ -40,18 +40,18 @@ html {
     width: auto;
 }
 
-/* Adjust colors for nav links to be visible on dark background */
+/* Ajusta as cores dos links de navegação para serem visíveis em fundo escuro */
 .navbar-nav .nav-link {
-    color: var(--secondary-color); /* Lighter color for nav links */
+    color: var(--secondary-color); /* Cor mais clara para os links de navegação */
     font-weight: 500;
     margin-right: 1.5rem;
     transition: color 0.3s ease;
 }
 
-/* Adjust nav link colors on hover/active for dark background */
+/* Ajusta as cores dos links de navegação em hover/ativo para fundo escuro */
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-    color: white; /* Even lighter on hover/active for contrast */
+    color: white; /* Ainda mais claro em hover/ativo para contraste */
 }
 
 /* --- Botões Personalizados --- */
@@ -86,19 +86,18 @@ html {
     border-color: var(--primary-color-dark);
 }
 
-/* Inverted style for the button inside the navbar */
+/* Estilo invertido para o botão dentro da barra de navegação */
 .navbar .btn-primary-custom {
-    background-color: var(--secondary-color); /* Light background for the button */
+    background-color: var(--secondary-color); /* Fundo claro para o botão */
     border-color: var(--secondary-color);
-    color: var(--primary-color); /* Dark text for the button */
+    color: var(--primary-color); /* Texto escuro para o botão */
 }
 
 .navbar .btn-primary-custom:hover {
-    background-color: var(--light-grey); /* Slightly darker on hover */
+    background-color: var(--light-grey); /* Ligeiramente mais escuro em hover */
     border-color: var(--light-grey);
-    color: var(--primary-color-dark); /* Darker text on hover */
+    color: var(--primary-color-dark); /* Texto mais escuro em hover */
 }
-
 
 /* --- Seção Principal (Hero Section) --- */
 .hero-section {
@@ -122,27 +121,6 @@ html {
 .hero-section p.lead {
     font-size: 1.25rem;
     color: var(--text-color);
-}
-
-.hero-section .btn-outline-secondary-custom {
-    border: 1px solid var(--light-grey);
-    color: var(--text-color);
-    background-color: white;
-    padding: 1rem 1.5rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    transition: all 0.3s ease;
-    text-decoration: none; /* Garante que links (agora <a>) não tenham sublinhado */
-}
-
-.hero-section .btn-outline-secondary-custom:hover {
-    border-color: var(--primary-color);
-    color: var(--primary-color);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-}
-
-.hero-section .btn-outline-secondary-custom i {
-    color: var(--primary-color);
 }
 
 /* IMAGEM DIRETA */
@@ -211,4 +189,24 @@ h2 {
 }
 
 h3 {
-    font-family: 'Montserrat
+    font-family: 'Montserrat'
+}
+
+/* Estilos adicionais para o footer */
+.footer-icon-link {
+    transition: color 0.3s ease;
+}
+
+.footer-icon-link:hover {
+    color: #cccccc !important; /* Cor mais clara para o hover */
+}
+/* Alinhamento do texto de copyright em telas pequenas */
+.copyright-text {
+    text-align: center;
+}
+/* Alinhamento dos ícones do footer em telas grandes */
+@media (min-width: 768px) {
+    .copyright-text {
+        text-align: left;
+    }
+}

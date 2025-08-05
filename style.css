@@ -36,7 +36,7 @@ html {
 
 /* Estilo para a imagem do logotipo na Navbar */
 .navbar-brand img {
-    height: 60px; /* Maintains original size */
+    height: 95px; /* Aumenta o tamanho do logotipo para 80px */
     width: auto;
 }
 

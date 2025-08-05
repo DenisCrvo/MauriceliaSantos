@@ -200,13 +200,3 @@ h3 {
 .footer-icon-link:hover {
     color: #cccccc !important; /* Cor mais clara para o hover */
 }
-/* Alinhamento do texto de copyright em telas pequenas */
-.copyright-text {
-    text-align: center;
-}
-/* Alinhamento dos ícones do footer em telas grandes */
-@media (min-width: 768px) {
-    .copyright-text {
-        text-align: left;
-    }
-}
